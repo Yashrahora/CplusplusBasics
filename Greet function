@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+void greet(){
+    string name;
+    cout << "Enter your name :";
+     cin>> name;
+        cout<<"Hello_"<< name<< endl;
+    }
+int main() {
+    greet();
+}
